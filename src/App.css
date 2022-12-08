@@ -2,9 +2,44 @@
   text-align: center;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+tr:nth-child(odd){
+  background: #fff0c7;
+}
+th{
+  background-color: whitesmoke;
+}
+
+.table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+input, textarea, button {
+  width: 100%;
+}
+
+button {
+  background-color: #3F334D;
+  color: #fff;
+  text-transform: capitalize;
+  border: none;
+  padding: 5%;
+  transition: background-color 1s ease-out, color 1s ease-out;
+  font-weight: bold;
+}
+
+.widen {
+  width: 30%;
 }
 
 @media (prefers-reduced-motion: no-preference) {

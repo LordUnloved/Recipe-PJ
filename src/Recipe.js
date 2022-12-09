@@ -5,7 +5,7 @@ const Recipe = ( { recipe, deleteRecipe } ) => {
     const { name, cuisine, photo, ingredients, preparation } = recipe;
 
     return(
-        <tr>
+        <tr className='table'>
             <td>
                 <p>{name}</p>
             </td>

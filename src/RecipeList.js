@@ -6,7 +6,7 @@ function RecipeList( { recipes, deleteRecipe } ) {
   
   return (
     <div>
-      <table>
+      <table className="table">
         <thead>
           <tr>
             <th>Name</th>
